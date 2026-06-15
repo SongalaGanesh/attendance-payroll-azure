@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/whatsapp/webhook")
+@RequestMapping("/whatsapp/webhook")
 public class WhatsAppWebhookController {
     private static final Logger logger = LoggerFactory.getLogger(WhatsAppWebhookController.class);
 

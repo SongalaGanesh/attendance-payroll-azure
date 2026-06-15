@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 
 @RestController
-@RequestMapping("/api/attendance")
+@RequestMapping("/attendance")
 @PreAuthorize("hasRole('SUPER_ADMIN') or hasRole('HR_ADMIN')")
 public class AttendanceController {
 

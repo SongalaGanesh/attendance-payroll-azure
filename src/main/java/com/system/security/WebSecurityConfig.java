@@ -80,7 +80,7 @@ public class WebSecurityConfig {
             	        "/login",
             	        "/dashboard/**"
             	    ).permitAll()
-            	    .requestMatchers("/api/auth/**").permitAll()
+            	    .requestMatchers("/auth/**").permitAll()
             	    .requestMatchers("/whatsapp/webhook/**").permitAll()
             	    .anyRequest().authenticated()
             	);

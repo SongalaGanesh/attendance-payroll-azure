@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/dashboard")
+@RequestMapping("/dashboard")
 @PreAuthorize("hasRole('SUPER_ADMIN') or hasRole('HR_ADMIN')")
 public class DashboardController {
 

@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/leaves")
+@RequestMapping("/leaves")
 @PreAuthorize("hasRole('SUPER_ADMIN') or hasRole('HR_ADMIN')")
 public class LeaveController {
 
